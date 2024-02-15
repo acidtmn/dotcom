@@ -23,7 +23,7 @@ const LatestVersion = () => {
       target="_blank"
     >
       <span className="mr-2">🎉</span>
-      Released
+      Релиз
       <span className="font-medium ml-1">v{version}</span>
       <Icon.ArrowRight className="w-4 h-auto ml-1" />
     </Link>
