@@ -10,7 +10,7 @@ const DemoPlaceholder = () => {
           href="https://demo.usememos.com"
           target="_blank"
         >
-          Live Demo
+          Демо
         </Link>
         <Link
           className="bg-white opacity-70 w-32 py-2 rounded-md drop-shadow flex flex-row justify-center items-center hover:bg-gray-100"
