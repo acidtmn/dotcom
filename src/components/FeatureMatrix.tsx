@@ -11,38 +11,38 @@ export const MAIN_FEATURES: FeatureItem[] = [
   {
     slug: "privacy-first",
     icon: Icon.Shield,
-    title: "Privacy First",
-    description: "Keep your own data by yourself. All data generated at runtime is saved in the SQLite database file.",
+    title: "Конфиденциальность прежде всего",
+    description: "Храните свои данные самостоятельно. Все данные, созданные во время выполнения, сохраняются в файле базы данных SQLite.",
   },
   {
     slug: "plain-text",
     icon: Icon.Edit3,
-    title: "Plain text with Markdown",
-    description: "All content will be saved as plain text, not HTML. And lots of useful markdown syntax are supported.",
+    title: "Обычный текст с Markdown",
+    description: "Весь контент будет сохранен в виде обычного текста, а не HTML. Поддерживается множество полезных синтаксисов уценки.",
   },
   {
     slug: "lightweight",
     icon: Icon.Compass,
-    title: "Lightweight but Powerful",
-    description: "Using Go + React.js + SQLite architecture, the overall package is very lightweight.",
+    title: "Легкий, но мощный",
+    description: "Используя архитектуру Go + React.js + SQLite, весь пакет очень легкий.",
   },
   {
     slug: "customizable",
     icon: Icon.Sliders,
-    title: "Customizable",
-    description: "You can customize the server name, icon, description, custom system style and execution script, etc.",
+    title: "Настраиваемый",
+    description: "Вы можете настроить имя, значок, описание сервера, собственный стиль системы, сценарий выполнения и т. д.",
   },
   {
     slug: "open-source",
     icon: Icon.Github,
-    title: "Open Source Completely",
-    description: "Memos believes that open source is the future, and all code is already open source in GitHub.",
+    title: "Полностью открытый исходный код",
+    description: "Memos считает, что будущее за открытым исходным кодом, и весь код уже доступен на GitHub.",
   },
   {
     slug: "free-forever",
     icon: Icon.Smile,
-    title: "Free Forever",
-    description: "All features are free forever and will never be charged in any form or content.",
+    title: "Бесплатно навсегда",
+    description: "Все функции бесплатны навсегда и никогда не будут взиматься плата ни в какой форме или за содержание.",
   },
 ];
 
@@ -50,12 +50,12 @@ const SUB_FEATURES: FeatureItem[] = [
   {
     icon: Icon.Star,
     title: "22K+",
-    description: "GitHub Stars",
+    description: "Звезды GitHub",
   },
   {
     icon: Icon.Users,
     title: "170+",
-    description: "Contributors",
+    description: "Авторы",
   },
   {
     icon: Icon.Download,
@@ -65,14 +65,14 @@ const SUB_FEATURES: FeatureItem[] = [
   {
     icon: Icon.Package,
     title: "50+",
-    description: "Releases",
+    description: "Релизов",
   },
 ];
 
 const FeatureMatrix = () => {
   return (
     <>
-      <p className="w-full text-center mt-8 mb-4 sm:px-6 text-xl sm:text-2xl font-normal text-gray-400">Why Memos?</p>
+      <p className="w-full text-center mt-8 mb-4 sm:px-6 text-xl sm:text-2xl font-normal text-gray-400">Почему Memos?</p>
       <div className="w-full my-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-12 sm:px-12">
         {MAIN_FEATURES.map((featureItem) => (
           <div key={featureItem.title} className="w-full flex flex-col justify-start items-start rounded-2xl bg-zinc-100">
