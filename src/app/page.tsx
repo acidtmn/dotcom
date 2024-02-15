@@ -13,7 +13,7 @@ const Page = () => {
         <h2 className="w-full max-w-3xl text-center text-4xl sm:text-6xl font-medium sm:font-bold mt-4 mb-6">
           Удобный и легкий сервис для создания заметок, ориентированный на конфиденциальность
         </h2>
-        <h3 className="w-full text-base sm:text-xl text-gray-500 text-center"> Легко записывайте и делитесь своими замечательными мыслями. </h3>
+        <h3 className="w-full text-base sm:text-xl text-gray-500 text-center">Easily capture and share your great thoughts.</h3>
       </div>
       <DemoPlaceholder />
       <FeatureMatrix />
