@@ -1,14 +1,14 @@
 ---
-title: Privacy Policy
+title: Политика конфиденциальности
 ---
 
-> This Privacy Policy governs your use of the Memos service.
+> Настоящая Политика конфиденциальности регулирует использование вами службы Memos.
 
-## Information Collection
+## Сбор информации
 
-To enhance your experience, we collect service usage data, such as service activations and data logging occurrences. Please note that this data does not include any of your private information.
+Чтобы улучшить ваш опыт, мы собираем данные об использовании служб, такие как активации служб и случаи регистрации данных. Обратите внимание, что эти данные не включают в себя какую-либо вашу личную информацию.
 
-We may utilize third-party services to gather this information. You can learn more about these third-party service providers' privacy policies by visiting the following links:
+Мы можем использовать сторонние сервисы для сбора этой информации. Вы можете узнать больше о политике конфиденциальности этих сторонних поставщиков услуг, перейдя по следующим ссылкам:
 
 - [Posthog Privacy Policy](https://posthog.com/privacy)
 
